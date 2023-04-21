@@ -1,0 +1,96 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+ } 
+  
+   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"); 
+ /**Ссылка на фонт чтобы не приходилось её устанавливать если её на винде/маке нет**/ 
+ .nav{ 
+   width: 100vw; 
+   height: 9vh; 
+   background-color:#272727 ;
+   opacity: 80%; 
+   transition: 0.2s ease-out;
+ /**градиент навигационной панели. потыкайте настройки, мб интересно. А если похуй, то похуй че.**/ 
+ } 
+
+ .nav:hover{ 
+  transition: 0.2s ease-out;
+  opacity: 100%; 
+  
+/**градиент навигационной панели. потыкайте настройки, мб интересно. А если похуй, то похуй че.**/ 
+} 
+   body {/**Считаю что Монстеррат лучшего всего подходит для всего сайта. Поэтому весь боди будет в этом фонте**/ 
+    background: #272727; 
+     font-family: "Montserrat", sans-serif; 
+   } 
+  
+  
+ .dav{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b6aa3228996683.55dcf3a14e265.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ .centered{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    .centered {
+        font-size: 72px;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px #000000;
+      }
+ .te{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+ }
+
+ .tes{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 450px;
+    height: 500px;
+ }
+ footer {
+    background-color: #27282c;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #666;
+  }
+  
+  .footer-text {
+    text-align: center;
+  }
+  
+  .footer-text p {
+    font-size: 14px;
+    color: #969494;
+    margin: 0;
+  }

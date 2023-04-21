@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson Sign-Up Form</title>
+  <link rel="stylesheet" href="style_book.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sign Up for a Lesson</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" name="surname" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="lecture">Type of Lecture:</label>
+      <select id="lecture" name="lecture" required>
+        <option value="NoSQL: Database Management">NoSQL: Database Management</option>
+        <option value="Algorithms and Data structures">Algorithms and Data structures</option>
+        <option value="Discrete Mathematics">Discrete Mathematics</option>
+        <option value="Machine Learning">Machine Learning</option>
+      </select>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+
+      <label for="price">Price Range</label>
+      <input type="range" id="price" name="price" min="0" max="1000" value="500">
+      <small style="margin-left: 0px; margin-bottom: 40px; color: grey;">Price Range: From $0 to $1000</small>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
